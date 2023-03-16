@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+.toptip {
+  background-color: #cb9274;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 48px;
+  z-index: 1; }
+
+.header {
+  position: relative; }
+
+.head_top {
+  display: flex;
+  align-items: center; }
+
+.topslide {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; }
