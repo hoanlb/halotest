@@ -13,3 +13,14 @@ html, body {
   box-sizing: border-box;
 }
 
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1690px;
+  padding: 0 10px;
+  max-width: 100%;
+}
