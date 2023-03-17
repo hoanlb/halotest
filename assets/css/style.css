@@ -595,7 +595,18 @@ button {
         width: 100%;
         margin-bottom: 20px; }
       .collection_top_right {
-        width: 100%; } }
+        width: 100%; }
+        .collection_top_right .product {
+          width: 100%; }
+        .collection_top_right .collection_slide {
+          height: 610px; }
+          .collection_top_right .collection_slide .slick-prev, .collection_top_right .collection_slide .slick-next {
+            top: 200px;
+            bottom: auto; }
+          .collection_top_right .collection_slide .slick-prev {
+            left: 0; }
+          .collection_top_right .collection_slide .slick-next {
+            right: 0; } }
 
 .promotion {
   background-color: #f5dfcd;

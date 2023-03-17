@@ -259,6 +259,22 @@
       }
       &_right {
         width: 100%;
+        .product {
+          width: 100%;
+        }
+        .collection_slide {
+          height: 610px;
+          .slick-prev, .slick-next {
+            top: 200px;
+            bottom: auto;
+          }
+          .slick-prev {
+            left: 0;
+          }
+          .slick-next {
+            right: 0;
+          }
+        }
       }
     }
   }
