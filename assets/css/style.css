@@ -604,9 +604,9 @@ button {
             top: 200px;
             bottom: auto; }
           .collection_top_right .collection_slide .slick-prev {
-            left: 0; }
+            left: 10px; }
           .collection_top_right .collection_slide .slick-next {
-            right: 0; } }
+            right: 10px; } }
 
 .promotion {
   background-color: #f5dfcd;
