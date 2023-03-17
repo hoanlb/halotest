@@ -47,6 +47,13 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    padding: 60px 0;
+    &_list {
+      font-size: 25px;
+      line-height: 40px;
+    }
+  }
 }
 
 .bestsell {
@@ -104,6 +111,35 @@
     width: 435px;
     margin-left: 30px;
   }
+  @media (max-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &_wrap {
+      max-width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow-x: hidden;
+    }
+    &_in {
+      display: block;
+      width: 100%;
+    }
+    &_main {
+      width: 100%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .product {
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 0;
+      &_img {
+        text-align: center;
+      }
+    }
+  }
 }
 
 .outfit {
@@ -111,7 +147,6 @@
   padding: 80px 0;
   &_wrap {
     display: flex;
-    margin: 0 -15px;
   }
   &_left {
     width: 696px;
@@ -155,6 +190,22 @@
     display: block;
     margin: 0 auto;
   }
+  @media (max-width: 768px) {
+    &_wrap {
+      display: block;
+    }
+    &_left {
+      background: none !important;
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      padding: 0 0 30px;
+    }
+    &_right {
+      flex: auto;
+      width: 100%;
+    }
+  }
 }
 
 .collection {
@@ -173,6 +224,41 @@
       .product {
         width: 435px;
         margin: 0 auto;
+      }
+      .collection_slide {
+        &_item {
+          
+        }
+        .slick-prev, .slick-next {
+          width: 14px;
+          height: 25px;
+          top: auto;
+          bottom: 0;
+          z-index: 10;
+          &::before {
+            display: none;
+          }
+        }
+        .slick-prev {
+          background: url(../images/slide_prev.png) no-repeat;
+          left: 195px;
+        }
+        .slick-next {
+          background: url(../images/slide_next.png) no-repeat;
+          right: 195px;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    &_top {
+      display: block;
+      &_left {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      &_right {
+        width: 100%;
       }
     }
   }
@@ -250,6 +336,43 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    display: block;
+    &_left {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &_right {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+    &_more {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 10px 0 10px 20px;
+      &_col {
+        margin-left: 0;
+        padding-right: 20px;
+        width: 50%;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    &_time {
+      flex-wrap: wrap;
+      &_v {
+        display: none;
+      }
+      &_col {
+        margin: 10px;
+      }
+    }
+    &_more {
+      &_col {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .client {
@@ -277,8 +400,9 @@
     color: #333333;
     line-height: 27px;
     text-align: center;
-    padding: 0 100px;
-    margin-bottom: 16px;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto 16px auto;
   }
   &_member {
     font-family: "Cormorant Garamond", serif;
@@ -294,6 +418,30 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 45px;
+  }
+  &_slide {
+    max-height: 345px;
+    &_item {}
+    .slick-prev, .slick-next {
+      width: 50px;
+      height: 50px;
+      top: 227px;
+      bottom: 0;
+      z-index: 10;
+      &::before {
+        display: none;
+      }
+    }
+    .slick-prev {
+      background: url(../images/slide_prev.png) no-repeat center;
+      background-color: #ffffff;
+      left: 75px;
+    }
+    .slick-next {
+      background: url(../images/slide_next.png) no-repeat center;
+      background-color: #ffffff;
+      right: 75px;
+    }
   }
   &_avas {
     display: flex;
@@ -327,6 +475,18 @@
     img {
       width: 100%;
       height: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    &_slide {
+      max-height: 500px;
+      .slick-prev, .slick-next {
+        display: none !important;
+      }
+    }
+    &_desc {
+      width: 100%;
+      padding: 0 20px;
     }
   }
 }

@@ -12,11 +12,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="toptip">Mid-season Sale up to 50% off. Shop now!</div>
+  <div class="toptip">
+    Mid-season Sale up to 50% off. Shop now!
+    <i class="fa fa-close"></i>
+  </div>
   <header class="head">
     <div class="head_top">
       <ul class="topmenu topmenu_left">
@@ -54,11 +59,60 @@
         </li>
       </ul>
       <div class="topright">
-        topright
+        <a href="">
+          <i class="fa fa-user"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-search"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-lock"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
-    <div class="topslide">
-      <img src="assets/images/slide_img1.png" />
+    <div class="topslide slider">
+      <div class="topslide_item">
+        <div class="topslide_item_info">
+          <h2 class="topslide_item_title">Luxury for Every Women</h2>
+          <div class="topslide_item_short">
+            Chic jackets reinvented for a modern look paired with our<br>
+            exclusive accessories will show off your class
+          </div>
+          <a href="" class="topslide_item_btn">
+            Discover
+          </a>
+        </div>
+        <img src="assets/images/slide_img1.png" />
+      </div>
+      <div class="topslide_item">
+        <div class="topslide_item_info">
+          <h2 class="topslide_item_title">Luxury for Every Women</h2>
+          <div class="topslide_item_short">
+            Chic jackets reinvented for a modern look paired with our<br>
+            exclusive accessories will show off your class
+          </div>
+          <a href="" class="topslide_item_btn">
+            Discover
+          </a>
+        </div>
+        <img src="assets/images/slide_img1.png" />
+      </div>
+      <div class="topslide_item">
+        <div class="topslide_item_info">
+          <h2 class="topslide_item_title">Luxury for Every Women</h2>
+          <div class="topslide_item_short">
+            Chic jackets reinvented for a modern look paired with our<br>
+            exclusive accessories will show off your class
+          </div>
+          <a href="" class="topslide_item_btn">
+            Discover
+          </a>
+        </div>
+        <img src="assets/images/slide_img1.png" />
+      </div>
     </div>
   </header>
   <div class="content">
@@ -72,7 +126,7 @@
           <a href=""><span>Skirts & Tops</span><img src="assets/images/dresses.png" /></a><br>
           <a href=""><span>Jumpsuits & Playsuits</span><img src="assets/images/dresses.png" /></a> /
           <a href=""><span>Bikinis & Swimsuits</span><img src="assets/images/dresses.png" /></a> /
-          <a href=""><span>Accessories</span><img src="assets/imagess/dresses.png" /></a>
+          <a href=""><span>Accessories</span><img src="assets/images/dresses.png" /></a>
         </div>
       </div>
     </section>
@@ -88,7 +142,7 @@
               <h2 class="bestsell_main_txt">
                 Classy Fashion
               </h2>
-              <a href="" class="best_sell_main_btn">
+              <a href="" class="bestsell_main_btn">
                 View all
               </a>
             </div>
@@ -216,42 +270,101 @@
             <img src="assets/images/collection_img1.png" alt="">
           </div>
           <div class="collection_top_right">
-            <a href="" class="product">
-              <div class="product_img">
-                <img src="assets/images/best_seller_img1.png" alt="">
-                <div class="product_view">
-                  <i class="fa fa-eye"></i>
-                </div>
-                <div class="product_newsale">
-                  <span class="newsale new">New</span>
-                  <span class="newsale sale">Sale</span>
-                </div>
-                <div class="product_imgbot">
-                  <button type="button" class="product_addcart">Add cart</button>
-                </div>
+            <div class="collection_slide slider">
+              <div class="collection_slide_item">
+                <a href="" class="product">
+                  <div class="product_img">
+                    <img src="assets/images/best_seller_img1.png" alt="">
+                    <div class="product_imgbot">
+                      <button type="button" class="product_addcart">Add cart</button>
+                    </div>
+                  </div>
+                  <div class="product_colors">
+                    <span class="product_color brown active"></span>
+                    <span class="product_color gray"></span>
+                    <span class="product_color bland_brown"></span>
+                    <span class="product_color dark_green"></span>
+                    <span class="product_color blue"></span>
+                    <span class="product_colormore">+2 more</span>
+                  </div>
+                  <h2 class="product_title">(Product 04) Sample - Clothing For Sale</h2>
+                  <div class="product_rate">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                  <div class="product_price">
+                    <span class="price main_price">$620.00</span>
+                    <span class="price main_price">-</span>
+                    <span class="price main_price">$625.00</span>
+                  </div>
+                </a>
               </div>
-              <div class="product_colors">
-                <span class="product_color brown active"></span>
-                <span class="product_color gray"></span>
-                <span class="product_color bland_brown"></span>
-                <span class="product_color dark_green"></span>
-                <span class="product_color blue"></span>
-                <span class="product_colormore">+2 more</span>
+              <div class="collection_slide_item">
+                <a href="" class="product">
+                  <div class="product_img">
+                    <img src="assets/images/best_seller_img1.png" alt="">
+                    <div class="product_imgbot">
+                      <button type="button" class="product_addcart">Add cart</button>
+                    </div>
+                  </div>
+                  <div class="product_colors">
+                    <span class="product_color brown active"></span>
+                    <span class="product_color gray"></span>
+                    <span class="product_color bland_brown"></span>
+                    <span class="product_color dark_green"></span>
+                    <span class="product_color blue"></span>
+                    <span class="product_colormore">+2 more</span>
+                  </div>
+                  <h2 class="product_title">(Product 04) Sample - Clothing For Sale</h2>
+                  <div class="product_rate">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                  <div class="product_price">
+                    <span class="price main_price">$620.00</span>
+                    <span class="price main_price">-</span>
+                    <span class="price main_price">$625.00</span>
+                  </div>
+                </a>
               </div>
-              <h2 class="product_title">(Product 04) Sample - Clothing For Sale</h2>
-              <div class="product_rate">
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
+              <div class="collection_slide_item">
+                <a href="" class="product">
+                  <div class="product_img">
+                    <img src="assets/images/best_seller_img1.png" alt="">
+                    <div class="product_imgbot">
+                      <button type="button" class="product_addcart">Add cart</button>
+                    </div>
+                  </div>
+                  <div class="product_colors">
+                    <span class="product_color brown active"></span>
+                    <span class="product_color gray"></span>
+                    <span class="product_color bland_brown"></span>
+                    <span class="product_color dark_green"></span>
+                    <span class="product_color blue"></span>
+                    <span class="product_colormore">+2 more</span>
+                  </div>
+                  <h2 class="product_title">(Product 04) Sample - Clothing For Sale</h2>
+                  <div class="product_rate">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                  <div class="product_price">
+                    <span class="price main_price">$620.00</span>
+                    <span class="price main_price">-</span>
+                    <span class="price main_price">$625.00</span>
+                  </div>
+                </a>
               </div>
-              <div class="product_price">
-                <span class="price main_price">$620.00</span>
-                <span class="price main_price">-</span>
-                <span class="price main_price">$625.00</span>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
         <div class="promotion">
@@ -297,34 +410,74 @@
       </div>
     </section>
     <section class="section client">
-      <div class="container">
-        <h2 class="section_title">What Our Client Says</h2>
-        <div class="client_content">
-          <div class="client_rate">
-            <span class="star active"></span>
-            <span class="star active"></span>
-            <span class="star active"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-          </div>
-          <div class="client_desc">
-            “Your products are really amazing, thanks to it I don't have to think much about what to wear every day. And
-            from the attached accessories, I can coordinate a lot of different outfits without being boring. I really
-            recommend it for women who are busy but still want to show their high fashion sense every day.”
-          </div>
-          <div class="client_member">Elizabeth Jane</div>
-          <div class="client_career">Office Staff</div>
-          <div class="client_avas">
-            <div class="client_ava">
-              <img src="assets/images/client_ava1.png" alt="">
+      <div class="client_slide slider">
+        <div class="client_slide_item">
+          <h2 class="section_title">What Our Client Says</h2>
+          <div class="client_content">
+            <div class="client_rate">
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star"></span>
+              <span class="star"></span>
             </div>
-            <div class="client_ava active">
-              <img src="assets/images/client_ava2.png" alt="">
+            <div class="client_desc">
+              “Your products are really amazing, thanks to it I don't have to think much about what to wear every day. And
+              from the attached accessories, I can coordinate a lot of different outfits without being boring. I really
+              recommend it for women who are busy but still want to show their high fashion sense every day.”
             </div>
-            <div class="client_ava">
-              <img src="assets/images/client_ava3.png" alt="">
-            </div>
+            <div class="client_member">Elizabeth Jane</div>
+            <div class="client_career">Office Staff</div>
           </div>
+        </div>
+        <div class="client_slide_item">
+          <h2 class="section_title">What Our Client Says</h2>
+          <div class="client_content">
+            <div class="client_rate">
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <div class="client_desc">
+              “Your products are really amazing, thanks to it I don't have to think much about what to wear every day. And
+              from the attached accessories, I can coordinate a lot of different outfits without being boring. I really
+              recommend it for women who are busy but still want to show their high fashion sense every day.”
+            </div>
+            <div class="client_member">Elizabeth Jane</div>
+            <div class="client_career">Office Staff</div>
+          </div>
+        </div>
+        <div class="client_slide_item">
+          <h2 class="section_title">What Our Client Says</h2>
+          <div class="client_content">
+            <div class="client_rate">
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star active"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <div class="client_desc">
+              “Your products are really amazing, thanks to it I don't have to think much about what to wear every day. And
+              from the attached accessories, I can coordinate a lot of different outfits without being boring. I really
+              recommend it for women who are busy but still want to show their high fashion sense every day.”
+            </div>
+            <div class="client_member">Elizabeth Jane</div>
+            <div class="client_career">Office Staff</div>
+          </div>
+        </div>
+      </div>
+      <div class="client_avas">
+        <div class="client_ava">
+          <img src="assets/images/client_ava1.png" alt="">
+        </div>
+        <div class="client_ava active">
+          <img src="assets/images/client_ava2.png" alt="">
+        </div>
+        <div class="client_ava">
+          <img src="assets/images/client_ava3.png" alt="">
         </div>
       </div>
     </section>
@@ -476,6 +629,10 @@
       </div>
     </div>
   </footer>
+
+  <script src="assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="assets/js/common.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

@@ -17,6 +17,7 @@
     }
     &_tf {
       width: 650px;
+      max-width: 100%;
       height: 50px;
       border: solid 1px #ffffff;
       margin: 0 auto;
@@ -60,6 +61,11 @@
           position: absolute;
           top: 16px;
           right: 0;
+        }
+      }
+      @media (max-width: 767px) {
+        button {
+          text-indent: -9999px;
         }
       }
     }
@@ -133,6 +139,35 @@
     .foot_payment {
       img {
         margin-left: 10px;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    &_bot {
+      display: block;
+    }
+    &_info {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &_menu {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+    &_copyright {
+      display: block;
+      .copyright {
+        flex: auto;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .foot_payment {
+        width: 100%;
+        img {
+          margin-left: 0;
+          margin-right: 10px;
+        }
       }
     }
   }
