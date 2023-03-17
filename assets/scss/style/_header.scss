@@ -12,20 +12,21 @@
   line-height: 48px;
   z-index: 3;
 }
-.header {
+.head {
   position: relative;
   height: 898px;
+  &_top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 1670px;
+    max-width: 100%;
+    margin: 48px auto 0 auto;
+    padding-top: 28px;
+  }
 }
-.head_top {
-  display: flex;
-  align-items: center;
-  position: relative;
-  z-index: 2;
-  width: 1670px;
-  max-width: 100%;
-  margin: 48px auto 0 auto;
-  padding-top: 28px;
-}
+
 .logo {
   width: 30%;
   display: block;

@@ -1,0 +1,139 @@
+.foot {
+  background-color: #cb9274;
+  padding: 68px 0;
+  color: #ffffff;
+  &_logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  &_form {
+    &_txt {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 19px;
+    }
+    &_tf {
+      width: 650px;
+      height: 50px;
+      border: solid 1px #ffffff;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      i.fa-envelope {
+        margin-right: 14px;
+        font-size: 30px;
+        color: #ffffff;
+      }
+      input {
+        background: none;
+        border: none;
+        flex: 2;
+        padding-right: 20px;
+        font-size: 16px;
+        color: #ffeadf;
+        &::-webkit-input-placeholder {
+          color: #ffeadf;
+        }
+        
+        &:-ms-input-placeholder {
+          color: #ffeadf;
+        }
+        
+        &::placeholder {
+          color: #ffeadf;
+        }
+      }
+      button {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        height: 100%;
+        background: none;
+        border: none;
+        position: relative;
+        padding-right: 30px;
+        i.fa-arrow-right {
+          position: absolute;
+          top: 16px;
+          right: 0;
+        }
+      }
+    }
+    .chk {
+      text-align: center;
+      margin-top: 18px;
+    }
+  }
+  &_bot {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 48px;
+    border-bottom: solid 1px #ffffff;
+  }
+  &_info {
+    flex: 2;
+    &_txt {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    &_social {
+      margin-top: 26px;
+      a {
+        font-size: 18px;
+        color: #ffffff;
+        margin-right: 10px;
+      }
+    }
+    &_app {
+      margin-top: 26px;
+      &_title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      &_btn {
+        display: flex;
+        a {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  &_menu {
+    margin-left: 156px;
+    &_title {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    ul {
+      li {
+        font-size: 16px;
+        line-height: 36px;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  &_copyright {
+    padding-top: 28px;
+    display: flex;
+    .copyright {
+      flex: 2;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .foot_payment {
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+}
